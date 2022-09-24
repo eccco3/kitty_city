@@ -1,0 +1,35 @@
+.App {
+    background-color: plum;
+    width: 100vw;
+    height: 100vh;
+    & >.app-header {
+        box-sizing: border-box;
+        border-bottom: 5px solid wheat;
+        display: flex;
+        height: 15%;
+        font-size: 100px;
+        font-family: cursive;
+        align-items: flex-end;
+    }
+    & >.box {
+        box-sizing: border-box;
+        border-left: 5px solid wheat;
+        border-right: 5px solid wheat;
+        display: flex;
+        justify-content: center;
+        height: 85%;
+        width: 60%;
+        margin: auto;
+        background-color: pink;
+    
+    }
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 35px;
+    font-family: fantasy;
+    
+}
